@@ -1,0 +1,10 @@
+node_modules/
+*.log
+.DS_Store
+.claude.json.bak
+
+# Rust
+/target
+
+# Local working copy of Anthropic's channels docs - not redistributed.
+reference.md

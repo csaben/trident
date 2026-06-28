@@ -1,0 +1,5 @@
+# Keep LF on files that run on other machines via curl | bash or node.
+# CRLF would break the installer on macOS/Linux ($'\r' command not found).
+*.sh   text eol=lf
+*.mjs  text eol=lf
+*.json text eol=lf
